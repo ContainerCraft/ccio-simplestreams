@@ -1,8 +1,7 @@
 Lxd-image-server
 ================
-[![Build Status](https://travis-ci.org/Avature/lxd-image-server.svg?branch=master)](https://travis-ci.org/Avature/lxd-image-server)
-[![Coverage Status](https://coveralls.io/repos/github/Avature/lxd-image-server/badge.svg?branch=master)](https://coveralls.io/github/Avature/lxd-image-server?branch=master)
-
+[Docker Hub Image](https://hub.docker.com/r/containercraft/ccio-simplestreams)
+[Application Repo](https://github.com/containercraft/simplestreams-service)
 Creates and manages a simplestreams lxd image server on top of nginx.
 If installed as a debian package, a new service is created and it monitors
 if there are any changes in the image directory and updates json files.
