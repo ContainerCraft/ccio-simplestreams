@@ -1,7 +1,0 @@
-[mirrors]
-  # Add each mirror with its info. Example:
-  # [lxdhub]
-  # user = "lxdadm"
-  # url = "https://lxdhub.xxxxxxx.com:8443"
-  # Make sure key has 700 permission and the ownership is lxdadm:www-data
-  # key_path = "/etc/lxd-image-server/lxdhub.key"

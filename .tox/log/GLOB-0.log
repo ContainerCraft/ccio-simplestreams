@@ -1,0 +1,97 @@
+action: GLOB, msg: packaging
+cwd: /root/ccio-simplestreams
+cmd: /usr/bin/python setup.py sdist --formats=zip --dist-dir /root/ccio-simplestreams/.tox/dist
+/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'long_description_content_type'
+  warnings.warn(msg)
+running sdist
+running egg_info
+creating lxd_image_server.egg-info
+writing requirements to lxd_image_server.egg-info/requires.txt
+writing lxd_image_server.egg-info/PKG-INFO
+writing top-level names to lxd_image_server.egg-info/top_level.txt
+writing dependency_links to lxd_image_server.egg-info/dependency_links.txt
+writing entry points to lxd_image_server.egg-info/entry_points.txt
+writing manifest file 'lxd_image_server.egg-info/SOURCES.txt'
+reading manifest file 'lxd_image_server.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'lxd_image_server.egg-info/SOURCES.txt'
+running check
+creating lxd-image-server-0.0.1
+creating lxd-image-server-0.0.1/debian
+creating lxd-image-server-0.0.1/lxd_image_server
+creating lxd-image-server-0.0.1/lxd_image_server.egg-info
+creating lxd-image-server-0.0.1/lxd_image_server/simplestreams
+creating lxd-image-server-0.0.1/lxd_image_server/tools
+creating lxd-image-server-0.0.1/test
+creating lxd-image-server-0.0.1/test/unit
+copying files to lxd-image-server-0.0.1...
+copying MANIFEST.in -> lxd-image-server-0.0.1
+copying README.md -> lxd-image-server-0.0.1
+copying dev-requirements.txt -> lxd-image-server-0.0.1
+copying requirements.txt -> lxd-image-server-0.0.1
+copying setup.py -> lxd-image-server-0.0.1
+copying debian/changelog -> lxd-image-server-0.0.1/debian
+copying lxd_image_server/__init__.py -> lxd-image-server-0.0.1/lxd_image_server
+copying lxd_image_server/cli.py -> lxd-image-server-0.0.1/lxd_image_server
+copying lxd_image_server.egg-info/PKG-INFO -> lxd-image-server-0.0.1/lxd_image_server.egg-info
+copying lxd_image_server.egg-info/SOURCES.txt -> lxd-image-server-0.0.1/lxd_image_server.egg-info
+copying lxd_image_server.egg-info/dependency_links.txt -> lxd-image-server-0.0.1/lxd_image_server.egg-info
+copying lxd_image_server.egg-info/entry_points.txt -> lxd-image-server-0.0.1/lxd_image_server.egg-info
+copying lxd_image_server.egg-info/requires.txt -> lxd-image-server-0.0.1/lxd_image_server.egg-info
+copying lxd_image_server.egg-info/top_level.txt -> lxd-image-server-0.0.1/lxd_image_server.egg-info
+copying lxd_image_server/simplestreams/__init__.py -> lxd-image-server-0.0.1/lxd_image_server/simplestreams
+copying lxd_image_server/simplestreams/images.py -> lxd-image-server-0.0.1/lxd_image_server/simplestreams
+copying lxd_image_server/simplestreams/index.py -> lxd-image-server-0.0.1/lxd_image_server/simplestreams
+copying lxd_image_server/tools/__init__.py -> lxd-image-server-0.0.1/lxd_image_server/tools
+copying lxd_image_server/tools/cert.py -> lxd-image-server-0.0.1/lxd_image_server/tools
+copying lxd_image_server/tools/config.py -> lxd-image-server-0.0.1/lxd_image_server/tools
+copying lxd_image_server/tools/mirror.py -> lxd-image-server-0.0.1/lxd_image_server/tools
+copying lxd_image_server/tools/operation.py -> lxd-image-server-0.0.1/lxd_image_server/tools
+copying test/__init__.py -> lxd-image-server-0.0.1/test
+copying test/unit/__init__.py -> lxd-image-server-0.0.1/test/unit
+copying test/unit/test_cert.py -> lxd-image-server-0.0.1/test/unit
+copying test/unit/test_images.py -> lxd-image-server-0.0.1/test/unit
+copying test/unit/test_index.py -> lxd-image-server-0.0.1/test/unit
+copying test/unit/test_operations.py -> lxd-image-server-0.0.1/test/unit
+Writing lxd-image-server-0.0.1/setup.cfg
+creating /root/ccio-simplestreams/.tox/dist
+creating '/root/ccio-simplestreams/.tox/dist/lxd-image-server-0.0.1.zip' and adding 'lxd-image-server-0.0.1' to it
+adding 'lxd-image-server-0.0.1'
+adding 'lxd-image-server-0.0.1/debian'
+adding 'lxd-image-server-0.0.1/lxd_image_server'
+adding 'lxd-image-server-0.0.1/lxd_image_server.egg-info'
+adding 'lxd-image-server-0.0.1/test'
+adding 'lxd-image-server-0.0.1/MANIFEST.in'
+adding 'lxd-image-server-0.0.1/README.md'
+adding 'lxd-image-server-0.0.1/dev-requirements.txt'
+adding 'lxd-image-server-0.0.1/requirements.txt'
+adding 'lxd-image-server-0.0.1/setup.py'
+adding 'lxd-image-server-0.0.1/PKG-INFO'
+adding 'lxd-image-server-0.0.1/setup.cfg'
+adding 'lxd-image-server-0.0.1/debian/changelog'
+adding 'lxd-image-server-0.0.1/lxd_image_server/simplestreams'
+adding 'lxd-image-server-0.0.1/lxd_image_server/tools'
+adding 'lxd-image-server-0.0.1/lxd_image_server/__init__.py'
+adding 'lxd-image-server-0.0.1/lxd_image_server/cli.py'
+adding 'lxd-image-server-0.0.1/lxd_image_server/simplestreams/__init__.py'
+adding 'lxd-image-server-0.0.1/lxd_image_server/simplestreams/images.py'
+adding 'lxd-image-server-0.0.1/lxd_image_server/simplestreams/index.py'
+adding 'lxd-image-server-0.0.1/lxd_image_server/tools/__init__.py'
+adding 'lxd-image-server-0.0.1/lxd_image_server/tools/cert.py'
+adding 'lxd-image-server-0.0.1/lxd_image_server/tools/config.py'
+adding 'lxd-image-server-0.0.1/lxd_image_server/tools/mirror.py'
+adding 'lxd-image-server-0.0.1/lxd_image_server/tools/operation.py'
+adding 'lxd-image-server-0.0.1/lxd_image_server.egg-info/PKG-INFO'
+adding 'lxd-image-server-0.0.1/lxd_image_server.egg-info/SOURCES.txt'
+adding 'lxd-image-server-0.0.1/lxd_image_server.egg-info/dependency_links.txt'
+adding 'lxd-image-server-0.0.1/lxd_image_server.egg-info/entry_points.txt'
+adding 'lxd-image-server-0.0.1/lxd_image_server.egg-info/requires.txt'
+adding 'lxd-image-server-0.0.1/lxd_image_server.egg-info/top_level.txt'
+adding 'lxd-image-server-0.0.1/test/unit'
+adding 'lxd-image-server-0.0.1/test/__init__.py'
+adding 'lxd-image-server-0.0.1/test/unit/__init__.py'
+adding 'lxd-image-server-0.0.1/test/unit/test_cert.py'
+adding 'lxd-image-server-0.0.1/test/unit/test_images.py'
+adding 'lxd-image-server-0.0.1/test/unit/test_index.py'
+adding 'lxd-image-server-0.0.1/test/unit/test_operations.py'
+removing 'lxd-image-server-0.0.1' (and everything under it)
